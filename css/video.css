@@ -1,0 +1,82 @@
+/*视频*/
+.videoInner{
+	width: 850px;
+	height: auto;
+}
+.videoOuter{
+	height: 340px;
+	margin-top: 20px;
+	border-bottom: 1px solid #f0f0f0;
+}
+.videoBoxOuter{
+	width: 210px;
+    float: left;
+}
+.videoBoxOuter .videoBox{
+	margin-bottom: 20px;
+}
+.videoBox{
+	width: 195px;
+	float: left;
+	margin-left: 15px;
+	position: relative;
+}
+.videoBox a{
+	line-height: normal;
+	font-weight: normal;
+
+}
+/*右上角*/
+.videoBar{
+	position: absolute;
+	display: block;
+    width: 42px;
+    height: 43px;
+    top: -1px;
+    right: -1px;
+    overflow: hidden;
+}
+/*电影*/
+.film{
+    background: url(../img/video/videobar.png?__sprite) no-repeat -127px;	
+}
+/*电视剧*/
+.teleplay{
+    background: url(../img/video/videobar.png?__sprite) no-repeat -85px;	
+}
+/*综艺*/
+.variety{
+    background: url(../img/video/videobar.png?__sprite) no-repeat -43px;		
+}
+/*动漫*/
+.animation{
+    background: url(../img/video/videobar.png?__sprite) no-repeat 0;		
+}
+.videoBox:hover .videoBar{
+	width: 42px;
+    height: 20px;
+    top: 5px;
+    right: 8px;
+    overflow: hidden;
+    background: url(../img/video/vicon.png?__sprite) no-repeat -3px -20px;
+}
+
+.videoText{
+	height: 50px;
+	background:#f5f5f5;
+	border: 1px solid #f5f5f5;
+	margin-top:-3px;
+}
+.videoText a{
+	display: inline-block;
+	margin: 10px auto auto 10px;
+	font-size: 14px;
+	font-family: "宋体";
+	cursor: auto;
+	text-decoration: none;
+	color: #333333;
+}
+.videoText a:hover{
+	text-decoration: underline;
+	color: #0077ff;
+}

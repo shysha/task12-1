@@ -1,0 +1,120 @@
+/*导航*/
+.navInner{
+	height: auto;
+}
+.guessLike{
+	height: 320px;
+}
+.information{
+	height: 250px;
+}
+.recreation{
+	height: 180px;
+}
+.shopSea{
+	height: 320px;
+}
+.life{
+	height: 180px;
+}
+
+
+/*每个框的样式*/
+.guessLikeA,
+.information a,
+.recreation a,
+.shopSea a,
+.life a{
+	display: inline-block;
+	float: left;
+	position: relative;
+	width: 126px;
+    height: 65px;
+	background-color: #fcfcfc;
+	margin-right: 12px;
+	margin-bottom: 10px;
+	border: 1px solid #fcfcfc;
+}
+/*最右边的框*/
+.navInner .navInnerR{
+	float: right;
+	margin-right: 0;
+}
+/*猜你喜欢*/
+.guessLike .guessLikeInner .guessLikeA{
+	font-weight: normal;
+	font-size: 14px;
+	font-family: "宋体";
+	text-indent: 18px;/*首行缩进*/
+	text-decoration: none;
+	line-height: 55px;
+	height: 58px;
+}
+/*底部的条*/
+.navBottomBar{
+	position: absolute;
+    height: 18px;
+    width: 128px;
+    background-color: #ff8300;
+    top: 41px;
+    display: none;
+    text-align: center;
+    line-height: 14px;
+}
+/*条的文字*/
+.navBottomText{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.navInner a img{
+	position: relative;
+	left: 5px;
+	top: -3px;
+}
+.guessLikeInner a img{
+	position: relative;
+	top: 3px;
+	left: 0;
+}
+/*右上角的返回*/
+.back{
+    position: absolute;
+    right: 13px;
+    z-index: 1;
+}
+.guessLikeInner{
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+.guessLikeInner:hover .navBottomBar{
+	display: block;
+}
+.navInner .navBottomText:hover{
+	border: 0;
+}
+.navBottomBar:hover{
+	background-color: #ff6300;
+}
+
+
+.navInner a:hover{
+	border: 1px solid #f0f0f0;
+	
+}
+
+.navInner span{
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	clear: both;/*清除浮动*/
+}
+body{
+    min-width: 800px;
+
+}
